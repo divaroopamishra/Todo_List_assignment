@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body{
+      height: 100vh;
+      background: #313130;
+      display: grid;
+      place-items: center;
+  }
+  
+  .main-container{
+      height:80vh;
+      width: 80%;
+      background: white;
+  }
+  
+  .title{
+      width: 100%;
+      
+      background: #ae00ff;
+      color: #fff;
+      place-items: center;
+      text-transform: uppercase;
+      font-size: 2rem;
+      text-align: center;
+      padding: 0.5rem;
+  }
+  
+  .input-box{
+    
+      height: 3.5rem;
+      
+      border: none;
+      width: 25rem;
+      border-bottom: 2px solid #313130;
+      outline: none;
+      background: transparent;
+      padding: 0 10px;
+      color: #313130;
+      margin: 1rem;
+      margin-top: 4rem;
+      font-size: 2rem;
+      
+  } 
+  
+  .btn{
+      width:8rem;
+      height:3.5rem;
+   margin-left: 1.5rem;
+      background: #ae00ff;
+      margin-top: 4rem;
+      outline: none;
+      color: #fff;
+      border: none;
+    
+      cursor: pointer;
+      font-size: 2rem;
+      transition: all 0.8s ease-in;
+      padding: 0.3rem;
+  }
+  
+  .btn:hover{
+      background: transparent;
+      border: 3px solid #ae00ff;
+      color: #ae00ff;
+      font-size: 20px;
+      border-radius: 4px;
+  }
+  
+
+ form{
+   display: flex;
+   justify-content: center;
+margin:0.5rem;
+ }
+ .todo-item{
+    background-color: #ae00ff;
+    width:15rem;
+    margin:0.5rem 0;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color:rgb(240, 248, 255);
+    font-size: 2rem;
+
+ }
+ #todo-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:0.5rem;
+    
+ }
+ .remove-button{
+    background-color: #f4f4f5;
+    border: none;
+    font-size: 2rem;
+    color: red;
+    height:2rem;
+    width:2rem;
+
+
+ }
+ footer{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+ }
+
+
+ 
